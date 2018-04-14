@@ -1,0 +1,42 @@
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  height: 90%;
+  background-image: url("https://i.imgur.com/qXWblY3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  width: 44vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: white;
+}
+
+.logo {
+  font-size: 3vw;
+}
+
+.icons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+  .hero-text {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero-text {
+    font-size: 120%;
+  }
+}

@@ -1,0 +1,25 @@
+.bwphoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2%;
+    height: 90%;
+    background-image: url("https://i.imgur.com/MRwFLYY.pngg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box2 {
+    background-color: rgb(187, 191, 192);
+    height: 100%;
+    width: 90%;
+    border-left: solid rgb(247, 125, 81);
+    margin-top: 2rem;
+    margin-left: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
