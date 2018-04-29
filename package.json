@@ -1,0 +1,27 @@
+{
+  "name": "spoiler_machine",
+  "version": "1.0.0",
+  "description": "spoiler-machine",
+  "main": "spoiler.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessielute/brainstation.git"
+  },
+  "keywords": [
+    "spoiler"
+  ],
+  "author": "jessielute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessielute/brainstation/issues"
+  },
+  "homepage": "https://github.com/jessielute/brainstation#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {}
+}
